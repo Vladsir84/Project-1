@@ -1,0 +1,141 @@
+.communication {
+    padding: 50px 15px;
+    transition: 1s;
+    &__half-underline {
+        height: 1px;
+        background-color: $color-dark;
+        opacity: 0.1;
+        width: 150px;
+        margin-top: 40px;
+    }
+    @include for-large-up {
+        padding: 110px 0;
+        .communication-main-sector {
+            display: flex;
+            padding: 0 193px 68px 126px;
+        }
+        &__half-underline {
+            margin-left: 128px;
+        }
+    }
+}
+
+.communication-main-block {
+    &__subtitle {
+        margin: 0;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 34px;
+        color: $color-blue;
+    }
+    &__title {
+        margin: 0;
+        margin-top: 17px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -0.357143px;
+        transition: 1s;
+        @include for-large-up {
+            margin-top: 24px;
+            font-size: 56px;
+            line-height: 56px;
+            letter-spacing: -0.5px;
+        }
+    }
+    &__top-description {
+        margin: 0;
+        margin-top: 18px;
+        font-size: 24px;
+        line-height: 34px;
+        transition: 1s;
+        @include for-large-up {
+            margin-top: 30px;
+        }
+    }
+    &__button {
+        padding: 17px 30px 18px 30px;
+        background-color: $color-dark-blue;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 13px;
+        color: $color-white;
+        border: none;
+        outline: none;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+        border-radius: 2px;
+        margin-top: 30px;
+        transition: 1s;
+        @include for-large-up {
+            margin-top: 56px;
+        }
+    }
+}
+
+.communication-for-mobile {
+    margin: 0;
+    margin-top: 40px;
+    figcaption {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: $text-color-dark;
+        margin-top: 17px;
+    }
+    &__for-mobile {
+        max-width: 100%;
+        display: block;
+        margin: auto;
+        transition: 1s;
+    }
+    @include for-large-up {
+        display: none;
+    }
+}
+
+.communication-for-desktop {
+    display: none;
+    margin: 0;
+    margin-left: 194px;
+    transition: 1s;
+    figcaption {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: $text-color-dark;
+        margin-top: 15px;
+    }
+    @include for-large-up {
+        display: block;
+    }
+}
+
+.communication-additional-p {
+    font-size: 18px;
+    line-height: 26px;
+    transition: 1s;
+    &__p-add-inform {
+        margin: 0;
+        margin-top: 33px;
+        span,
+        a {
+            font-weight: 700;
+        }
+        a {
+            display: block;
+            color: $color-dark-blue;
+            margin: 0;
+        }
+    }
+    @include for-large-up {
+        display: flex;
+        padding: 41px 130px 0 128px;
+        &__p-add-inform {
+            margin-top: 0;
+            margin-right: 30px;
+        }
+        &__p-add-inform:last-child {
+            margin-right: 0;
+        }
+    }
+}

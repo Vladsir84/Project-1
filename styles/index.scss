@@ -2,13 +2,18 @@
     @import 'variables.scss';
     @import 'about.scss';
     @import 'common.scss';
+    @import 'communication.scss';
     @import 'customers.scss';
     @import 'features.scss';
+    @import 'feedback.scss';
     @import 'footer.scss';
     @import 'header.scss';
     @import 'headline.scss';
+    @import 'hiring.scss';
+    @import 'inbox.scss';
     @import 'order.scss';
     @import 'tips.scss';
+    @import 'audience.scss';
     * {
         box-sizing: border-box;
     }
@@ -21,7 +26,6 @@
     
     .page {
         width: 100%;
-        transition: 1s;
         @include for-large-up {
             max-width: 1400px;
             margin: auto;
