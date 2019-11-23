@@ -84,7 +84,7 @@
         padding: 64px 22px 64px 21px;
         background-color: $text-color-darkgrey;
         display: inline-block;
-        background-image: url("img/arrow-right.png");
+        background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png");
         background-repeat: no-repeat;
         background-position: center;
         border-radius: 0 8px 8px 0;
@@ -139,7 +139,7 @@
         &__arrow-item {
             width: 7.44px;
             height: 12px;
-            background-image: url("img/arrow-right.png");
+            background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png");
             background-repeat: no-repeat;
             background-position: center;
             margin-right: 24.59px;
@@ -151,7 +151,7 @@
             }
         }
         &__item:hover .hiring-list-for-desktop__arrow-item {
-            background-image: url("img/arrow-right.png");
+            background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png");
         }
     }
 }
