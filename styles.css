@@ -113,7 +113,6 @@
   margin-top: 18px;
   font-size: 24px;
   line-height: 34px;
-  transition: 1s;
 }
 @media screen and (min-width: 1400px) {
   .communication-main-block__top-description {
@@ -132,7 +131,6 @@
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 2px;
   margin-top: 30px;
-  transition: 1s;
 }
 @media screen and (min-width: 1400px) {
   .communication-main-block__button {
@@ -145,9 +143,9 @@
   margin-top: 40px;
 }
 .communication-for-mobile figcaption {
+  text-align: center;
   font-size: 14px;
   line-height: 22px;
-  text-align: center;
   color: #2B292D;
   margin-top: 17px;
 }
@@ -155,7 +153,6 @@
   max-width: 100%;
   display: block;
   margin: auto;
-  transition: 1s;
 }
 @media screen and (min-width: 1400px) {
   .communication-for-mobile {
@@ -167,7 +164,6 @@
   display: none;
   margin: 0;
   margin-left: 194px;
-  transition: 1s;
 }
 .communication-for-desktop figcaption {
   font-size: 14px;
@@ -336,7 +332,7 @@
   border-bottom: 3px solid #3142C6;
 }
 .features__advantage-item {
-  border-bottom: 1px solid #2B292D26;
+  border-bottom: 1px solid #2B292D33;
   margin-top: 21px;
   padding-bottom: 22px;
   display: flex;
@@ -611,7 +607,8 @@
 }
 @media screen and (min-width: 1400px) {
   .social-links {
-    margin-left: auto;
+    position: absolute;
+    left: 1300px;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -692,7 +689,7 @@
 .header__menu-icon {
   width: 18px;
   height: 13px;
-  background-image: url("img/icon-hamburger.png");
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png");
   display: inline-block;
 }
 
@@ -724,7 +721,7 @@
   display: inline-block;
   height: 5px;
   width: 8px;
-  background-image: url("img/arrow.png");
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png");
   margin-left: 11px;
 }
 
@@ -973,7 +970,7 @@
   padding: 64px 22px 64px 21px;
   background-color: #959496;
   display: inline-block;
-  background-image: url("img/arrow-right.png");
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png");
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 0 8px 8px 0;
@@ -1032,7 +1029,7 @@
   .hiring-list-for-desktop__arrow-item {
     width: 7.44px;
     height: 12px;
-    background-image: url("img/arrow-right.png");
+    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png");
     background-repeat: no-repeat;
     background-position: center;
     margin-right: 24.59px;
@@ -1044,14 +1041,13 @@
     color: #fff;
   }
   .hiring-list-for-desktop__item:hover .hiring-list-for-desktop__arrow-item {
-    background-image: url("img/arrow-right.png");
+    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png");
   }
 }
 
 .inbox {
   background-color: #FCF0E3;
   padding: 50px 15px;
-  transition: 1s;
 }
 .inbox__image-for-mobile {
   margin: 0;
@@ -1083,34 +1079,34 @@
   font-size: 24px;
   line-height: 34px;
 }
-.inbox__human {
+.inbox__card {
   margin-top: 30px;
   background-color: #fff;
   padding: 30px 20px;
   border-bottom: 4px solid #0185D0;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
-.inbox__human-quote {
+.inbox__card-text {
   font-size: 20px;
   line-height: 28px;
   margin: 0;
 }
-.inbox__human-quote__person {
+.inbox__card-text__user {
   margin-top: 26px;
   font-size: 16px;
   line-height: 22px;
   display: flex;
   align-items: flex-start;
 }
-.inbox__human-quote__person-photo {
+.inbox__card-text__user-photo {
   margin-right: 11px;
   margin-top: 2px;
 }
-.inbox__name__personname {
+.inbox__name__user {
   margin: 0;
   font-weight: 700;
 }
-.inbox__name__ocupation {
+.inbox__name__status {
   color: #959496;
 }
 .inbox__image-for-desktop {
@@ -1159,7 +1155,7 @@
     margin-top: 44px;
     padding: 30px 30px;
   }
-  .inbox__name__personname, .inbox__name__ocupation {
+  .inbox__name__user, .inbox__name__status {
     font-size: 16px;
     line-height: 22px;
   }
@@ -1268,7 +1264,7 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
-  color: #009b4d;
+  color: #009B4D;
 }
 .tip__title {
   margin: 0;
@@ -1425,35 +1421,35 @@
   display: block;
   margin: auto;
 }
-.audience-bottom-section .audience-first-link {
+.audience-bottom-section .audience-developers-link {
   padding: 22px 76px 33px 76px;
 }
 @media screen and (min-width: 1400px) {
-  .audience-bottom-section .audience-first-link {
+  .audience-bottom-section .audience-developers-link {
     padding: 22px 62px 33px 62px;
   }
 }
-.audience-bottom-section .audience-second-link {
+.audience-bottom-section .audience-entertainment-link {
   padding: 22px 74px 33px 74px;
 }
 @media screen and (min-width: 1400px) {
-  .audience-bottom-section .audience-second-link {
+  .audience-bottom-section .audience-entertainment-link {
     padding: 22px 60px 33px 60px;
   }
 }
-.audience-bottom-section .audience-fourth-link {
+.audience-bottom-section .audience-athletes-link {
   padding: 22px 65px 33px 65px;
 }
 @media screen and (min-width: 1400px) {
-  .audience-bottom-section .audience-fourth-link {
+  .audience-bottom-section .audience-athletes-link {
     padding: 22px 51px 33px 51px;
   }
 }
-.audience-bottom-section .audience-fifth-link {
+.audience-bottom-section .audience-creators-link {
   padding: 22px 100px 33px 71px;
 }
 @media screen and (min-width: 1400px) {
-  .audience-bottom-section .audience-fifth-link {
+  .audience-bottom-section .audience-creators-link {
     padding: 22px 72px 33px 71px;
   }
 }

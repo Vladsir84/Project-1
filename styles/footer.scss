@@ -14,7 +14,7 @@
         }
     }
     &__line {
-        border-top: 1px solid #2B292D;
+        border-top: 1px solid $color-dark;
         width: 100%;
         opacity: 0.1;
         margin: 0;
@@ -86,7 +86,7 @@
         font-weight: bold;
         font-size: 22px;
         line-height: 28px;
-        color: #2B292D;
+        color: $color-dark;
         margin: 0;
     }
     &__list {
@@ -132,7 +132,8 @@
     margin-top: 30px;
     margin-bottom: 23px;
     @include for-large-up {
-        margin-left: auto;
+        position: absolute;
+        left: 1300px;
         margin-top: 0;
         margin-bottom: 0;
     }

@@ -1,7 +1,6 @@
 .inbox {
     background-color: $color-moon-light;
     padding: 50px 15px;
-    transition: 1s;
     &__image-for-mobile {
         margin: 0;
         img {
@@ -32,34 +31,34 @@
         font-size: 24px;
         line-height: 34px;
     }
-    &__human {
+    &__card {
         margin-top: 30px;
         background-color: $color-white;
         padding: 30px 20px;
         border-bottom: 4px solid $color-blue;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     }
-    &__human-quote {
+    &__card-text {
         font-size: 20px;
         line-height: 28px;
         margin: 0;
     }
-    &__human-quote__person {
+    &__card-text__user {
         margin-top: 26px;
         font-size: 16px;
         line-height: 22px;
         display: flex;
         align-items: flex-start;
     }
-    &__human-quote__person-photo {
+    &__card-text__user-photo {
         margin-right: 11px;
         margin-top: 2px;
     }
-    &__name__personname {
+    &__name__user {
         margin: 0;
         font-weight: 700;
     }
-    &__name__ocupation {
+    &__name__status {
         color: $text-color-darkgrey;
     }
     &__image-for-desktop {
@@ -108,8 +107,8 @@
             margin-top: 44px;
             padding: 30px 30px;
         }
-        &__name__personname,
-        &__name__ocupation {
+        &__name__user,
+        &__name__status {
             font-size: 16px;
             line-height: 22px;
         }
