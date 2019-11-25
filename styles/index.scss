@@ -1,31 +1,30 @@
-@import 'breakpoints.scss';
-@import 'variables.scss';
-@import 'about.scss';
-@import 'common.scss';
-@import 'communication.scss';
-@import 'customers.scss';
-@import 'features.scss';
-@import 'feedback.scss';
-@import 'footer.scss';
-@import 'header.scss';
-@import 'headline.scss';
-@import 'hiring.scss';
-@import 'inbox.scss';
-@import 'order.scss';
-@import 'tips.scss';
-@import 'audience.scss';
-
-* {
-    box-sizing: border-box;
-}
+    @import 'breakpoints.scss';
+    @import 'variables.scss';
+    @import 'about.scss';
+    @import 'common.scss';
+    @import 'communication.scss';
+    @import 'customers.scss';
+    @import 'features.scss';
+    @import 'feedback.scss';
+    @import 'footer.scss';
+    @import 'header.scss';
+    @import 'headline.scss';
+    @import 'hiring.scss';
+    @import 'inbox.scss';
+    @import 'order.scss';
+    @import 'tips.scss';
+    @import 'audience.scss';
+    * {
+        box-sizing: border-box;
+    }
     
-html {
+    html {
         font-size: 16px;
         font-family: 'Work Sans', sans-serif;
         color: $color-dark;
     }
     
-.page {
+    .page {
         width: 100%;
         @include for-large-up {
             max-width: 1400px;
@@ -33,5 +32,5 @@ html {
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-        } 
+        }
     }
