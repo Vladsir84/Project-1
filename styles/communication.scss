@@ -10,7 +10,7 @@
     }
     @include for-large-up {
         padding: 110px 0;
-        .communication-main-sector {
+        .communication-main {
             display: flex;
             padding: 0 193px 68px 126px;
         }
@@ -20,7 +20,7 @@
     }
 }
 
-.communication-main-block {
+.communication-main-part {
     &__subtitle {
         margin: 0;
         font-weight: 700;
@@ -35,7 +35,6 @@
         font-size: 40px;
         line-height: 40px;
         letter-spacing: -0.357143px;
-        transition: 1s;
         @include for-large-up {
             margin-top: 24px;
             font-size: 56px;
@@ -64,6 +63,7 @@
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
         border-radius: 2px;
         margin-top: 30px;
+        transition: 1s;
         @include for-large-up {
             margin-top: 56px;
         }
@@ -84,6 +84,7 @@
         max-width: 100%;
         display: block;
         margin: auto;
+        transition: 1s;
     }
     @include for-large-up {
         display: none;
@@ -106,11 +107,10 @@
     }
 }
 
-.communication-additional-p {
+.communication-article {
     font-size: 18px;
     line-height: 26px;
-    transition: 1s;
-    &__p-add-inform {
+    &__text {
         margin: 0;
         margin-top: 33px;
         span,
@@ -126,11 +126,11 @@
     @include for-large-up {
         display: flex;
         padding: 41px 130px 0 128px;
-        &__p-add-inform {
+        &__text {
             margin-top: 0;
             margin-right: 30px;
         }
-        &__p-add-inform:last-child {
+        &__text:last-child {
             margin-right: 0;
         }
     }

@@ -75,7 +75,7 @@
   .communication {
     padding: 110px 0;
   }
-  .communication .communication-main-sector {
+  .communication .communication-main {
     display: flex;
     padding: 0 193px 68px 126px;
   }
@@ -84,42 +84,41 @@
   }
 }
 
-.communication-main-block__subtitle {
+.communication-main-part__subtitle {
   margin: 0;
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
   color: #0185D0;
 }
-.communication-main-block__title {
+.communication-main-part__title {
   margin: 0;
   margin-top: 17px;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.357143px;
-  transition: 1s;
 }
 @media screen and (min-width: 1400px) {
-  .communication-main-block__title {
+  .communication-main-part__title {
     margin-top: 24px;
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
   }
 }
-.communication-main-block__top-description {
+.communication-main-part__top-description {
   margin: 0;
   margin-top: 18px;
   font-size: 24px;
   line-height: 34px;
 }
 @media screen and (min-width: 1400px) {
-  .communication-main-block__top-description {
+  .communication-main-part__top-description {
     margin-top: 30px;
   }
 }
-.communication-main-block__button {
+.communication-main-part__button {
   padding: 17px 30px 18px 30px;
   background-color: #3141C5;
   font-weight: 700;
@@ -131,9 +130,10 @@
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 2px;
   margin-top: 30px;
+  transition: 1s;
 }
 @media screen and (min-width: 1400px) {
-  .communication-main-block__button {
+  .communication-main-part__button {
     margin-top: 56px;
   }
 }
@@ -153,6 +153,7 @@
   max-width: 100%;
   display: block;
   margin: auto;
+  transition: 1s;
 }
 @media screen and (min-width: 1400px) {
   .communication-for-mobile {
@@ -178,34 +179,33 @@
   }
 }
 
-.communication-additional-p {
+.communication-article {
   font-size: 18px;
   line-height: 26px;
-  transition: 1s;
 }
-.communication-additional-p__p-add-inform {
+.communication-article__text {
   margin: 0;
   margin-top: 33px;
 }
-.communication-additional-p__p-add-inform span,
-.communication-additional-p__p-add-inform a {
+.communication-article__text span,
+.communication-article__text a {
   font-weight: 700;
 }
-.communication-additional-p__p-add-inform a {
+.communication-article__text a {
   display: block;
   color: #3141C5;
   margin: 0;
 }
 @media screen and (min-width: 1400px) {
-  .communication-additional-p {
+  .communication-article {
     display: flex;
     padding: 41px 130px 0 128px;
   }
-  .communication-additional-p__p-add-inform {
+  .communication-article__text {
     margin-top: 0;
     margin-right: 30px;
   }
-  .communication-additional-p__p-add-inform:last-child {
+  .communication-article__text:last-child {
     margin-right: 0;
   }
 }
@@ -384,21 +384,21 @@
   }
 }
 
-.feedback-article__title {
+.feedback-inform__title {
   margin: 0;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 24px;
   line-height: 30px;
   color: #3142C6;
   transition: 1s;
 }
 @media screen and (min-width: 1400px) {
-  .feedback-article__title {
+  .feedback-inform__title {
     margin: 0 130px;
   }
 }
 
-.feedback-article__description {
+.feedback-inform__description {
   margin: 0;
   margin-top: 29px;
   font-size: 24px;
@@ -406,12 +406,12 @@
   transition: 1s;
 }
 @media screen and (min-width: 1400px) {
-  .feedback-article__description {
+  .feedback-inform__description {
     margin: 28px 325px 0 325px;
   }
 }
 
-.feedback-article__person-name {
+.feedback-inform__user {
   margin: 0;
   margin-top: 32px;
   font-size: 16px;
@@ -419,12 +419,12 @@
   font-weight: 700;
   transition: 1s;
 }
-.feedback-article__person-name .feedback-article__person-ocupation {
+.feedback-inform__user .feedback-inform__user-status {
   font-weight: normal;
   color: #959496;
 }
 @media screen and (min-width: 1400px) {
-  .feedback-article__person-name {
+  .feedback-inform__user {
     margin-top: 34px;
   }
 }
