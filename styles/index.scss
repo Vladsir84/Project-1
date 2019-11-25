@@ -1,24 +1,25 @@
-    @import 'breakpoints.scss';
-    @import 'variables.scss';
-    @import 'about.scss';
-    @import 'common.scss';
-    @import 'communication.scss';
-    @import 'customers.scss';
-    @import 'features.scss';
-    @import 'feedback.scss';
-    @import 'footer.scss';
-    @import 'header.scss';
-    @import 'headline.scss';
-    @import 'hiring.scss';
-    @import 'inbox.scss';
-    @import 'order.scss';
-    @import 'tips.scss';
-    @import 'audience.scss';
-    * {
-        box-sizing: border-box;
-    }
+@import 'breakpoints.scss';
+@import 'variables.scss';
+@import 'about.scss';
+@import 'common.scss';
+@import 'communication.scss';
+@import 'customers.scss';
+@import 'features.scss';
+@import 'feedback.scss';
+@import 'footer.scss';
+@import 'header.scss';
+@import 'headline.scss';
+@import 'hiring.scss';
+@import 'inbox.scss';
+@import 'order.scss';
+@import 'tips.scss';
+@import 'audience.scss';
+
+* {
+    box-sizing: border-box;
+}
     
-    html {
+html {
         font-size: 16px;
         font-family: 'Work Sans', sans-serif;
         color: $color-dark;
