@@ -765,7 +765,7 @@
 }
 
 .inbox {
-  background-color: #FCF0E3;
+  background-color: #FCF0E366;
   padding: 50px 15px;
 }
 @media screen and (min-width: 1400px) {
@@ -908,152 +908,114 @@
 
 .communication {
   padding: 50px 15px;
-  transition: 1s;
-}
-.communication__half-underline {
-  height: 1px;
-  background-color: #2B292D;
-  opacity: 0.1;
-  width: 150px;
-  margin-top: 40px;
 }
 @media screen and (min-width: 1400px) {
   .communication {
-    padding: 110px 0;
-  }
-  .communication .communication-main {
+    padding: 110px 130px 110px 126px;
     display: flex;
-    padding: 0 193px 68px 126px;
-  }
-  .communication__half-underline {
-    margin-left: 128px;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
-
-.communication-main-part__subtitle {
-  margin: 0;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 34px;
-  color: #0185D0;
-}
-.communication-main-part__title {
-  margin: 0;
-  margin-top: 17px;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 40px;
-  letter-spacing: -0.357143px;
+.communication__button {
+  align-self: flex-start;
+  margin-bottom: 40px;
 }
 @media screen and (min-width: 1400px) {
-  .communication-main-part__title {
-    margin-top: 24px;
+  .communication__button {
+    margin-bottom: 87px;
+  }
+}
+.communication__image {
+  margin-bottom: 17px;
+  padding: 0;
+}
+@media screen and (min-width: 1400px) {
+  .communication__image {
+    margin-right: 63px;
+  }
+}
+.communication__image-caption {
+  display: block;
+  font-size: 14px;
+  line-height: 22px;
+  color: #2b292d99;
+  margin-bottom: 40px;
+}
+.communication__half-line {
+  width: 150px;
+  height: 1px;
+  background: #000;
+  opacity: 0.1;
+  align-self: flex-start;
+  margin-bottom: 0;
+}
+@media screen and (min-width: 1400px) {
+  .communication__half-line {
+    margin-top: 47px;
+  }
+}
+.communication__additional-info {
+  font-size: 18px;
+  line-height: 26px;
+  color: #2B292D;
+}
+@media screen and (min-width: 1400px) {
+  .communication__additional-info {
+    display: flex;
+  }
+}
+.communication .column-wrapper .column .communication__subtitle {
+  color: #0189D1;
+  margin-bottom: 17px;
+}
+@media screen and (min-width: 1400px) {
+  .communication .column-wrapper .column .communication__subtitle {
+    margin: 0;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .communication__title {
+    margin: 0;
+    margin-bottom: 30px;
+    max-width: 462px;
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
   }
 }
-.communication-main-part__top-description {
-  margin: 0;
-  margin-top: 18px;
-  font-size: 24px;
-  line-height: 34px;
-}
 @media screen and (min-width: 1400px) {
-  .communication-main-part__top-description {
-    margin-top: 30px;
-  }
-}
-.communication-main-part__button {
-  padding: 17px 30px 18px 30px;
-  background-color: #3141C5;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 13px;
-  color: #fff;
-  border: none;
-  outline: none;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-  border-radius: 2px;
-  margin-top: 30px;
-  transition: 1s;
-}
-@media screen and (min-width: 1400px) {
-  .communication-main-part__button {
-    margin-top: 56px;
+  .communication__description {
+    margin: 0;
+    margin-bottom: 39px;
+    max-width: 461px;
+    font-size: 24px;
+    line-height: 34px;
   }
 }
 
-.communication-for-mobile {
-  margin: 0;
-  margin-top: 40px;
-}
-.communication-for-mobile figcaption {
-  text-align: center;
-  font-size: 14px;
-  line-height: 22px;
-  color: #2B292D;
-  margin-top: 17px;
-}
-.communication-for-mobile__for-mobile {
-  max-width: 100%;
-  display: block;
-  margin: auto;
-  transition: 1s;
-}
 @media screen and (min-width: 1400px) {
-  .communication-for-mobile {
-    display: none;
-  }
-}
-
-.communication-for-desktop {
-  display: none;
-  margin: 0;
-  margin-left: 194px;
-}
-.communication-for-desktop figcaption {
-  font-size: 14px;
-  line-height: 22px;
-  text-align: center;
-  color: #2B292D;
-  margin-top: 15px;
-}
-@media screen and (min-width: 1400px) {
-  .communication-for-desktop {
-    display: block;
-  }
-}
-
-.communication-article {
-  font-size: 18px;
-  line-height: 26px;
-}
-.communication-article__text {
-  margin: 0;
-  margin-top: 33px;
-}
-.communication-article__text span,
-.communication-article__text a {
-  font-weight: 700;
-}
-.communication-article__text a {
-  display: block;
-  color: #3141C5;
-  margin: 0;
-}
-@media screen and (min-width: 1400px) {
-  .communication-article {
-    display: flex;
-    padding: 41px 130px 0 128px;
-  }
-  .communication-article__text {
-    margin-top: 0;
+  .subscription {
+    max-width: 360px;
     margin-right: 30px;
   }
-  .communication-article__text:last-child {
+  .subscription:last-child {
     margin-right: 0;
   }
+}
+.subscription__text {
+  margin-top: 33px;
+  margin-bottom: 5px;
+}
+.subscription__link {
+  font-weight: 700;
+  color: #3142C6;
+  margin: 0;
+  font-size: 16px;
 }
 
 .audience {
