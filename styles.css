@@ -489,7 +489,6 @@
   display: flex;
   align-items: center;
   padding-left: 15px;
-  transition: 1s;
 }
 @media screen and (min-width: 1400px) {
   .header {
@@ -502,7 +501,6 @@
 }
 .header__button {
   display: none;
-  transition: 1s;
 }
 @media screen and (min-width: 1400px) {
   .header__button {
@@ -516,7 +514,6 @@
   height: 100%;
   margin-left: auto;
   background: transparent;
-  transition: 1s;
 }
 @media screen and (min-width: 1400px) {
   .header__menu-button {
@@ -532,7 +529,6 @@
 
 .navigation {
   display: none;
-  transition: 1s;
 }
 @media screen and (min-width: 1400px) {
   .navigation {
@@ -570,7 +566,6 @@
   width: 48px;
   height: 48px;
   margin-right: 13px;
-  transition: 1s;
 }
 @media screen and (min-width: 1400px) {
   .logo__image {
@@ -586,7 +581,6 @@
 }
 .logo__description {
   display: none;
-  transition: 1s;
 }
 @media screen and (min-width: 1400px) {
   .logo__description {
@@ -605,7 +599,6 @@
 
 .top-section {
   background-color: #f3c6bd;
-  transition: 1s;
 }
 @media screen and (min-width: 1400px) {
   .top-section {
@@ -772,7 +765,7 @@
 }
 
 .inbox {
-  background-color: #FCF0E366;
+  background-color: #FCF0E3;
   padding: 50px 15px;
 }
 @media screen and (min-width: 1400px) {
