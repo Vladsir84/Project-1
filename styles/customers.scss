@@ -39,3 +39,10 @@
         max-width: 80%;
     }
 }
+
+.customers.again {
+    transition: 1s;
+    @include for-large-up {
+        padding-bottom: 76px;
+    }
+}

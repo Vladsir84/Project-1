@@ -15,7 +15,7 @@
         }
     }
     
-    @media screen and (max-width: 399px) {
+    .hide_mobile {
         @include for-large-down {
             display: none;
         }

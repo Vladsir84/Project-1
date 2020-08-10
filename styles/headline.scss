@@ -18,6 +18,7 @@
     }
     &__title {
         font-weight: 700;
+        width: 100%;
         font-size: 50px;
         line-height: 50px;
         letter-spacing: -0.3125px;
@@ -29,6 +30,7 @@
             line-height: 78px;
             letter-spacing: -0.5px;
             z-index: 1;
+            margin: 0;
         }
     }
     &__description {
@@ -38,11 +40,8 @@
         line-height: 34px;
         @include for-large-up {
             margin-top: 34px;
-            margin-bottom: 0;
             height: 102px;
             width: 456px;
-            font-size: 24px;
-            line-height: 34px;
             z-index: 1;
         }
     }
@@ -80,9 +79,10 @@
             margin-left: auto;
         }
     }
-    &__action-btn {
-        @include for-large-up {
-            width: 100%;
-        }
+}
+
+.headline__actions-btn {
+    @include for-large-up {
+        width: 100%;
     }
 }
