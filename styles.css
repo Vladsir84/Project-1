@@ -918,19 +918,19 @@
   }
 }
 .communication__button {
+  background-color: #3040c4;
+  color: #fff;
+  width: 160px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: none;
   align-self: flex-start;
   margin-bottom: 40px;
 }
 @media screen and (min-width: 1400px) {
   .communication__button {
-    background-color: #3040C4;
-    color: #fff;
-    width: 160px;
-    height: 48px;
-    font-size: 18px;
-    font-weight: 700;
-    border-radius: 2px;
-    border: none;
     margin-bottom: 87px;
   }
 }
@@ -974,7 +974,7 @@
   }
 }
 .communication .column-wrapper .column .communication__subtitle {
-  color: #0189D1;
+  color: #0189d1;
   margin-bottom: 17px;
 }
 @media screen and (min-width: 1400px) {
